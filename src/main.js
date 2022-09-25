@@ -2,13 +2,13 @@
  * @LastEditors: isboyjc
  * @Description: 入口文件
  * @Date: 2022-09-17 14:35:02
- * @LastEditTime: 2022-09-23 00:48:32
+ * @LastEditTime: 2022-09-26 00:20:07
  * @Author: isboyjc
  */
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import '@/styles/normalize.css'
-// 导入Unocss
+// 导入Unocss样式
 import 'uno.css'
 
 import { getConfig } from '@/config/index'

@@ -2,7 +2,7 @@
  * @LastEditors: isboyjc
  * @Description: 全局config配置文件
  * @Date: 2022-09-17 14:35:02
- * @LastEditTime: 2022-09-17 14:35:02
+ * @LastEditTime: 2022-11-13 22:23:16
  * @Author: isboyjc
  */
 
@@ -26,7 +26,20 @@ const configSource = {
   // 模拟数据接口路径
   mockBaseUrl: ENV.VITE_BASE_MOCK_URL,
   // 服务端接口路径
-  serverUrl: ENV.VITE_BASE_SERVER_URL
+  serverUrl: ENV.VITE_BASE_SERVER_URL,
+  // GitHub地址
+  github: 'https://github.com/isboyjc/toolsdog',
+  // 备案号
+  icp: '京ICP备2022xxxxxxx号',
+  // 个人配置
+  me: {
+    name: 'isboyjc',
+    // 公众号
+    gzhName: '不正经的前端',
+    gzhUrl: 'http://qiniuimages.isboyjc.com/picgo/202210030159449.jpeg',
+    // github
+    github: 'https://github.com/isboyjc'
+  }
 }
 
 /**

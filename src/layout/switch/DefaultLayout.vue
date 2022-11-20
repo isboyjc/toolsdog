@@ -26,6 +26,7 @@ export default {
 
               <!-- right插槽 -->
               <template #right>
+                <SwitchMode />
                 <SwitchLayout />
                 <Github />
               </template>

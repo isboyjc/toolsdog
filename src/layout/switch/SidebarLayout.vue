@@ -28,6 +28,7 @@ const handleCollapse = (val, type) => {
             <template #left> <Logo /> </template>
 
             <template #right>
+              <SwitchMode />
               <SwitchLayout />
               <Github />
             </template>

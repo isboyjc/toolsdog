@@ -35,7 +35,9 @@ export default {
         </a-affix>
         <a-layout-content class="min-h-[calc(100vh-58px)]">
           <router-view v-slot="{ Component }">
-            <component :is="Component" />
+            <transition name="fade-x">
+              <component :is="Component" />
+            </transition>
           </router-view>
         </a-layout-content>
         <a-layout-footer>

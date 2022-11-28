@@ -2,7 +2,7 @@
  * @LastEditors: isboyjc
  * @Description: 入口文件
  * @Date: 2022-09-17 14:35:02
- * @LastEditTime: 2022-11-16 02:12:15
+ * @LastEditTime: 2022-11-29 07:01:20
  * @Author: isboyjc
  */
 import { createApp } from 'vue'
@@ -12,6 +12,9 @@ import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import '@/styles/normalize.css'
 // 导入Unocss样式
 import 'uno.css'
+
+// 公共样式
+import '@/assets/css/index.css'
 
 import { getConfig } from '@/config/index'
 console.log(getConfig('appCode'))

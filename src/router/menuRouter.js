@@ -1,5 +1,5 @@
 /*
- * @LastEditTime: 2022-11-14 01:16:54
+ * @LastEditTime: 2022-11-24 00:10:06
  * @Description: menuRouter
  * @Date: 2022-11-10 01:49:18
  * @Author: isboyjc
@@ -23,7 +23,7 @@ export const menuRouter = [
         meta: {
           title: '正则在线校验'
         },
-        component: () => import('@/views/RegularPage.vue')
+        component: () => import('@/views/RegularPage/index.vue')
       }
     ]
   }

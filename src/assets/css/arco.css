@@ -1,0 +1,7 @@
+.arco-scrollbar-track-direction-vertical {
+  @apply t-0 r-0 box-border w-15px h-full;
+}
+
+.arco-scrollbar-track {
+  @apply absolute z-100;
+}

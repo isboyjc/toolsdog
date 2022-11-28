@@ -2,7 +2,7 @@
  * @LastEditors: isboyjc
  * @Description: 系统状态
  * @Date: 2022-10-03 14:24:49
- * @LastEditTime: 2022-11-20 22:33:56
+ * @LastEditTime: 2022-11-24 01:10:41
  * @Author: isboyjc
  */
 import { getConfig } from '@/config/index'

@@ -1,0 +1,16 @@
+@import url("./arco.css");
+
+/* 路由过度动画 */
+.fade-x-enter-active {
+  transition: all 0.3s ease-out;
+}
+.fade-x-leave-active {
+  transition: all 0;
+}
+.fade-x-enter-from {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.fade-x-leave-from {
+  opacity: 0;
+}

@@ -4,6 +4,10 @@ specifiers:
   '@arco-design/web-vue': ^2.37.1
   '@iconify-json/dashicons': ^1.1.2
   '@iconify-json/ep': ^1.1.7
+  '@iconify-json/ic': ^1.1.10
+  '@iconify-json/icon-park-outline': ^1.1.7
+  '@iconify-json/icon-park-solid': ^1.1.5
+  '@iconify-json/jam': ^1.1.3
   '@iconify-json/material-symbols': ^1.1.22
   '@iconify-json/mdi': ^1.1.34
   '@iconify-json/ri': ^1.1.3
@@ -39,6 +43,10 @@ devDependencies:
   '@arco-design/web-vue': 2.37.1_vue@3.2.39
   '@iconify-json/dashicons': 1.1.2
   '@iconify-json/ep': 1.1.7
+  '@iconify-json/ic': 1.1.10
+  '@iconify-json/icon-park-outline': 1.1.7
+  '@iconify-json/icon-park-solid': 1.1.5
+  '@iconify-json/jam': 1.1.3
   '@iconify-json/material-symbols': 1.1.22
   '@iconify-json/mdi': 1.1.34
   '@iconify-json/ri': 1.1.3
@@ -186,6 +194,30 @@ packages:
 
   /@iconify-json/ep/1.1.7:
     resolution: {integrity: sha512-GhXWVKalXFlrGgfrCXAgqBre5hv3pPAknuxyywmjamcrL5gl5Mq9WOZtuhb4cB6cJ5pMiKOMtegt73FheqWscA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/ic/1.1.10:
+    resolution: {integrity: sha512-EmyoOv/MHYEZcpRtvU/+PTSd3vGv81bpdaUiLzym3XI7Y8kLMWVGr/rnztgb12Mzwi/hHkwfRq1GgdbyNSVPPQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/icon-park-outline/1.1.7:
+    resolution: {integrity: sha512-wQQ+CTY8ocgaxBBjn0fzCooZbRJ6crk1HYTlvM37aFTeVSlrKHbmq4thGxy6zkjFOvzi/w0GqgF4Kcpnor7syw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/icon-park-solid/1.1.5:
+    resolution: {integrity: sha512-iukamJdONk9ty4Kh41CSZiec9Ux56NwyzGoQaeRKexUz5m5ENAWCRgCxmd5fmmcaATzDIuh42UcwzhLmE/N8nA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/jam/1.1.3:
+    resolution: {integrity: sha512-cglJno17qx7LDsL/Gdf2/2x5r/AdicxPit/0w7muqwu7Q6aRfB1cVnFIMVB/qy7YOMZSA3uqIUalP3bscQI41Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true

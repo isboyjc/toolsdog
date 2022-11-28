@@ -1,5 +1,6 @@
 {
   "globals": {
+    "AMessage": true,
     "EffectScope": true,
     "acceptHMRUpdate": true,
     "asyncComputed": true,
